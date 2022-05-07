@@ -1,0 +1,53 @@
+.daohang {
+  width: 250px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.daohang li {
+  width: 80px;
+  text-align: center;
+  border: 1px solid black;
+  list-style-type: none;
+  float: left;
+}
+
+.daohang a {
+  text-decoration: none;
+}
+
+.m-nav {
+  display: flex;
+}
+
+.g-index {
+  margin: auto;
+  width: 400px;
+}
+
+.u-tab {
+  height: 30px;
+  width: 60px;
+  border: 1px solid #333;
+}
+
+.u-tab.focus {
+  background: #999;
+}
+
+.g-bd {
+  border: 1px solid #333;
+  width: 400px;
+}
+
+.m-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  height: 300px;
+}
+
+.m-content.hide {
+  display: none;
+}

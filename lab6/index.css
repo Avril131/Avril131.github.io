@@ -1,0 +1,80 @@
+#all {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #ccc;
+    width: 50%;
+    margin: 0;
+}
+
+p {
+    margin: 1px 4px;
+    word-break: keep-all;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.part {
+    width: 31%;
+    height: 210px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 1% 1%;
+}
+
+.images{
+    height: 65%;
+    width: 100%;
+}
+
+.images img {
+    height: 100%;
+    width: 100%;
+}
+
+.head p {
+    font-size: 8px;
+    
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+}
+
+.inf1 {
+    font-size: 10px;
+    color: rgb(255, 0, 85);
+}
+
+.inf2 {
+    font-size: 10px;
+    color:darkgray;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2px;
+}
+
+.price_m {
+    font-size: 13px;
+    margin-top: 9px;
+    color: rgb(255, 0, 85);
+    margin-right: 0;
+}
+
+.price_now {
+    font-size: 22px;
+    color: rgb(255, 0, 85);
+}
+
+.price_before {
+    margin-top: 12px;
+    font-size: 10px;
+    text-decoration: line-through;
+    color:darkgray;
+}

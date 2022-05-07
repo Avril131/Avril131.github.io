@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title></title>
+    <style>
+        body {
+            font-family: Arial;
+            padding: 10px;
+        }
+        .daohang {
+            list-style-type: none;
+            overflow: hidden;
+        }
+        .dh_li {
+            float: left;            
+        }
+        .dh_a {
+            float: left;
+            display: block;
+            text-align: center;
+            color: darkgray;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        .dh_a:hover {
+            color:black;
+        }
+        .column {
+            margin-left: 3%;
+            margin-right: 10%;
+        }
+        .leftcolumn {
+            float: left;
+            width: 48%;
+            line-height: 8px;
+        }
+        .mediumcolumn {
+            float: left;
+            width: 15%;
+        }
+        .rightcolumn {
+            margin-top: 15px;
+            float: right;
+            width: 26%;
+        }
+        @media screen and(max-width:100px) {
+            .leftcolumn,.rightcolumn,.mediumcolumn{
+                width:100%;
+            }
+        }
+        .fuhead {
+            color: darkgray;
+            font-family: Arial, Helvetica, cursive;
+        }
+        .image {
+            width: 210px;
+            height: 190px;
+            float: left;
+        }
+        .img {
+            margin-top: 10%;
+            width: 180px;
+            height: 200px;
+        }
+        .leftpart {
+            height: 220px;
+        }
+        .rightpart {
+            height: 200px;
+        }
+        .right_left {
+            width: 15%;
+            float: left;
+        }
+        .right_right {
+            width: 85%;
+            float: left;
+        }
+        .head {
+            font-weight: bold ;
+        }
+        .font_date {
+            color: darkgray;
+        }
+        .font_name {
+            color: black;
+        }
+        .font_num {
+            color: gainsboro;
+            font-size: xx-large;
+        }
+        body {font-family: sans-serif,Open Sans;}
+    </style>
+</head>
+<body>
+<div>
+    <ul class="daohang">
+        <li class="dh_li"><a class="dh_a"><</a></li>
+        <li class="dh_li"><a href="#home" class="dh_a">HOME</a></li>
+        <li class="dh_li"><a href="#onezero" class="dh_a">ONEZERO</a></li>
+        <li class="dh_li"><a href="#elemental" class="dh_a">ELEMENTAL</a></li>
+        <li class="dh_li"><a href="#gen" class="dh_a">GEN</a></li>
+        <li class="dh_li"><a href="#zora" class="dh_a">ZORA</a></li>
+        <li class="dh_li"><a href="#forge" class="dh_a">FORGE</a></li>
+        <li class="dh_li"><a href="#human parts" class="dh_a">HUMAN PARTS</a></li>
+        <li class="dh_li"><a href="#marker" class="dh_a">MARKER</a></li>
+        <li class="dh_li"><a href="#level" class="dh_a">LEVEL</a></li>
+        <li class="dh_li"><a href="#heated" class="dh_a">HEATED</a></li>
+        <li class="dh_li"><a href="#design" class="dh_a">DESIGN</a></li>
+        <li class="dh_li"><a href="#mo" class="dh_a">MO</a></li>
+        <li class="dh_li"><a class="dh_a">></a></li>
+    </ul>
+    <hr color="whitesmoke" >
+</div>
+<div class="column">
+    <div class="leftcolumn">
+        <div class="leftpart">
+            <p class="fuhead">POPULAR ON MEDIUM</p>
+            <h2 class="head">Commonly Used Design Patterns in JavaScript</h2>
+            <p class="fuhead">A look at the singleton, iterator, and factory patterns</p>
+            <br/>
+            <p class="font_name">John Au-Yeung Better Programming</p>
+            <p class="font_date">Feb 24 · 4 min read</p>
+        </div>
+        <div class="leftpart">
+            <p class="fuhead">BASED ON YOUR READING HISTORY</p>
+            <h2 class="head">Why Your App Looks Better in Sketch</h2>
+            <p class="fuhead">Exploring rendering differences between Sketch and iOS</p>
+            <br/>
+            <p class="font_name">Nathan Gitter</p>
+            <p class="font_date">Jan 31,2018 · 6 min read</p>
+        </div>
+        <div class="leftpart">
+            <p class="fuhead">BASED ON YOUR READING HISTORY</p>
+            <h2 class="head">JavaScript Bundlers,a Comparison</h2>
+            <p class="fuhead">How do JavaScript bundlers stack up against each other?</p>
+            <br/>
+            <p class="font_name">AJ Meyghani</p>
+            <p class="font_date">Oct 28.2018 · 27 min read</p>
+        </div>
+    </div>
+    <div class="mediumcolumn">
+        <div class="img">
+            <img src="1.png" class="image"></img>
+        </div>
+        <div class="img">
+            <img src="2.png" class="image"></img>
+        </div>
+        <div class="img">
+            <img src="3.png" class="image"></img>
+        </div>
+    </div>
+    <div class="rightcolumn">
+        <h2>Popular on Medium</h2>
+        <hr color="gainsboro">
+        <div class="rightpart">
+            <div class="right_left">
+                <p class="font_num">01</p>
+            </div>
+            <div class="right_right">
+                <br/>
+                <h3 class="righthead">How to Distinguish Between a Public Safety Crisis and a Personal Anxiety</h3>
+                <p class="font_name">Imani Bashir in Forge</p>
+                <p class="font_date">Mar 3 · 4 min read</p>
+            </div>
+        </div>
+        <div class="rightpart">
+            <div class="right_left">
+                <p class="font_num">02</p>
+            </div>
+            <div class="right_right">
+                <br/>
+                <h3 class="righthead">There's an Epidemic That's a Bigger Threa Than the Coronavirus</h3>
+                <p class="font_name">Dr.David L.Katz in Heated</p>
+                <p class="font_date">Feb 29 · 8 min read</p>
+            </div>
+        </div>
+        <div class="rightpart">
+            <div class="right_left">
+                <p class="font_num">03</p>
+            </div>
+            <div class="right_right">
+                <br/>
+                <h3 class="righthead">The Flawed,Twisted Legacy of Jack Welch</h3>
+                <p class="font_name">Rob Walker in Marker</p>
+                <p class="font_date">Mar 3 · 4 min read</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

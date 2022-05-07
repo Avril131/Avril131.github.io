@@ -1,0 +1,63 @@
+.daohang {
+    width: 250px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.daohang li {
+    width: 80px;
+    text-align: center;
+    border: 1px solid black;
+    list-style-type:none;
+    float: left;
+}
+.daohang a{
+    text-decoration: none;
+}
+.bigbox {
+    margin: auto;
+    border: 1px solid #333;
+    height: 250px;
+    width: 380px;
+    padding: 20px 10px;
+    position: relative;
+  }
+  
+  .content {
+    display: flex;
+    border: 1px solid #333;
+    height: 35px;
+    margin-top: 10px;
+  }
+  
+  .no {
+    border-right: 1px solid #333;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+  }
+  
+  .info {
+    width: 290px;
+  }
+  
+  .del {
+    border-left: 1px solid #333;
+    text-align: center;
+    width: 65px;
+    line-height: 35px;
+  }
+  
+  .add {
+    height: 35px;
+    width: 95px;
+    border: 1px solid #333;
+    background: #339966;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+  }
